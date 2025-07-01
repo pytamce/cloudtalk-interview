@@ -10,7 +10,7 @@ data "aws_security_group" "bastion_sg" {
 }
 
 data "template_file" "user_data" {
-  template = file("${path.module}/some_user_data.sh")
+  template = file("${path.module}/app.sh")
   vars = {
     ENVIRONMENT = var.environment_name
   }
