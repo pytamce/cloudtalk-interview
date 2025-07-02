@@ -32,7 +32,7 @@ variable "applications" {
       ami               = "ami-020cba7c55df1f615"
       instance_type     = "t2.micro"
       availability_zone = "us-east-1a"
-      subnet_id = "subnet-04f8aa709df9e695d"
+      subnet_id = ""
     },
     "app2" = {
       name              = "app2"
@@ -40,7 +40,7 @@ variable "applications" {
       ami               = "ami-020cba7c55df1f615"
       instance_type     = "t2.micro"
       availability_zone = "us-east-1b"
-      subnet_id = "subnet-008653418e9fa1d49"
+      subnet_id = ""
     }
   }
 }
